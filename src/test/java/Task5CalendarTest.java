@@ -415,14 +415,45 @@ class Task5CalendarTest {
 
     @Test
     void searchNotValid() {
-        //-----Second argument
-        combinationsNotValidForSecondArgument(1);
-        combinationsNotValidForSecondArgument(2);
-        combinationsNotValidForSecondArgument(3);
-        combinationsNotValidForSecondArgument(4);
-        combinationsNotValidForSecondArgument(5);
-        combinationsNotValidForSecondArgument(6);
-        combinationsNotValidForSecondArgument(7);
+        String errorInputFirstArgument = "Week has 7 days\r\nExpected: from 1 to 7\r\nGot: ";
+        //-----First argument
+        //-------Start of month
+        assertionsNotValidFirstArgument(null, "1", "1", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "1", "2", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "1", "3", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "1", "4", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "1", "5", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "1", "6", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "1", "7", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "1", "8", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "1", "9", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "1", "10", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "1", "11", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "1", "12", errorInputFirstArgument + "null");
+
+        //-------End of month
+        assertionsNotValidFirstArgument(null, "31", "1", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "28", "2", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "31", "3", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "30", "4", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "31", "5", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "30", "6", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "31", "7", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "31", "8", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "30", "9", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "31", "10", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "30", "11", errorInputFirstArgument + "null");
+        assertionsNotValidFirstArgument(null, "31", "12", errorInputFirstArgument + "null");
+
+        //-----Second and third argument
+        combinationsNotValidForSecondAndThirdArgument(1);
+        combinationsNotValidForSecondAndThirdArgument(2);
+        combinationsNotValidForSecondAndThirdArgument(3);
+        combinationsNotValidForSecondAndThirdArgument(4);
+        combinationsNotValidForSecondAndThirdArgument(5);
+        combinationsNotValidForSecondAndThirdArgument(6);
+        combinationsNotValidForSecondAndThirdArgument(7);
+
         //Character values
         String errorFirstArgumentString = "The day of new year: Week has 7 days\r\nExpected: from 1 to 7\r\nGot: ";
         String errorSecondArgumentString = "The day of new year: Day you need to find: Expected: from 1 to 31\r\nGot: ";
@@ -439,7 +470,7 @@ class Task5CalendarTest {
     }
 
     //------The check method for valid arguments
-   void assertionsValidSearch(int startYear, int searchDay, int searchMonth, String searchedDay) {
+    void assertionsValidSearch(int startYear, int searchDay, int searchMonth, String searchedDay) {
         DaysOfWeek searchedDayOfWeek = Calendar.searchDay(DaysOfWeek.values()[startYear - 1], searchDay, MonthsInYear.values()[searchMonth - 1]);
 
         assertEquals(DaysOfWeek.valueOf(searchedDay), searchedDayOfWeek);
@@ -454,6 +485,21 @@ class Task5CalendarTest {
                 "The day of new year: Day you need to find: Month you need to find: " + searchedDay;
 
         assertEquals(expected, result);
+    }
+
+    //------The check method for invalid first argument for method searchDay()
+    void assertionsNotValidFirstArgument(DaysOfWeek startYear, String searchDayStr, String searchMonthStr, String errorMethod) {
+        int searchDay = Integer.valueOf(searchDayStr);
+        MonthsInYear searchMonth = MonthsInYear.of(Integer.valueOf(searchMonthStr));
+
+        try {
+            Calendar.searchDay(startYear, searchDay, searchMonth);
+            fail();
+        } catch (IllegalArgumentException e) {
+            assertEquals(errorMethod, e.getMessage());
+        }
+        String nameOfFirstParameter = "The day of new year: ";
+        assertionsNotValidMain("null", searchDayStr, searchMonthStr, nameOfFirstParameter + errorMethod);
     }
 
     void assertionsNotValidMain(String startYear, String searchDay, String searchMonth, String error) {
@@ -484,6 +530,22 @@ class Task5CalendarTest {
         assertionsNotValidMain(startYearStr, searchDayStr, searchMonthStr, printThreeName + error);
     }
 
+    //------The check method for invalid first argument for method searchDay()
+    void assertionsNotValidThirdArgument(String startYearStr, String searchDayStr, MonthsInYear searchMonth) {
+        DaysOfWeek startYear = DaysOfWeek.of(Integer.valueOf(startYearStr));
+        int searchDay = Integer.valueOf(searchDayStr);
+        String errorMethod = "Year has 12 months\r\nExpected: from 1 to 12\r\nGot: null";
+
+        try {
+            Calendar.searchDay(startYear, searchDay, searchMonth);
+            fail();
+        } catch (IllegalArgumentException e) {
+            assertEquals(errorMethod, e.getMessage());
+        }
+        String error = "The day of new year: Day you need to find: Month you need to find: " +
+                "Year has 12 months\r\nExpected: from 1 to 12\r\nGot: null";
+        assertionsNotValidMain(startYearStr, searchDayStr, "null", error);
+    }
 
     //----The method imitates console enter from user, and returns string output in console
     String main(String input) {
@@ -497,12 +559,12 @@ class Task5CalendarTest {
         return outputStream.toString().trim();
     }
 
-    //----The method combines second and third arguments
-    void combinationsNotValidForSecondArgument(int startYear) {
+    //----The method combines for second arguments
+    void combinationsNotValidForSecondAndThirdArgument(int startYear) {
         String startYearString = Integer.valueOf(startYear).toString();
         String errorForSecondArgument = "has less or more days then you entered\r\nExpected: from 1 to ";
 
-        //Second argument is invalid
+        //Second argument
         assertionsNotForSecondArgument(startYearString, "0", "1", errorForSecondArgument + "31\r\nGot: 0");
         assertionsNotForSecondArgument(startYearString, "0", "2", errorForSecondArgument + "28\r\nGot: 0");
         assertionsNotForSecondArgument(startYearString, "0", "3", errorForSecondArgument + "31\r\nGot: 0");
@@ -527,6 +589,42 @@ class Task5CalendarTest {
         assertionsNotForSecondArgument(startYearString, "32", "10", errorForSecondArgument + "31\r\nGot: 32");
         assertionsNotForSecondArgument(startYearString, "31", "11", errorForSecondArgument + "30\r\nGot: 31");
         assertionsNotForSecondArgument(startYearString, "32", "12", errorForSecondArgument + "31\r\nGot: 32");
+        //Third argument
+        assertionsNotValidThirdArgument(startYearString, "1", null);
+        assertionsNotValidThirdArgument(startYearString, "2", null);
+        assertionsNotValidThirdArgument(startYearString, "3", null);
+        assertionsNotValidThirdArgument(startYearString, "4", null);
+        assertionsNotValidThirdArgument(startYearString, "5", null);
+        assertionsNotValidThirdArgument(startYearString, "6", null);
+        assertionsNotValidThirdArgument(startYearString, "7", null);
+        assertionsNotValidThirdArgument(startYearString, "8", null);
+        assertionsNotValidThirdArgument(startYearString, "9", null);
+        assertionsNotValidThirdArgument(startYearString, "10", null);
+        assertionsNotValidThirdArgument(startYearString, "11", null);
+        assertionsNotValidThirdArgument(startYearString, "12", null);
+        assertionsNotValidThirdArgument(startYearString, "13", null);
+        assertionsNotValidThirdArgument(startYearString, "14", null);
+        assertionsNotValidThirdArgument(startYearString, "15", null);
+        assertionsNotValidThirdArgument(startYearString, "16", null);
+        assertionsNotValidThirdArgument(startYearString, "17", null);
+        assertionsNotValidThirdArgument(startYearString, "18", null);
+        assertionsNotValidThirdArgument(startYearString, "19", null);
+        assertionsNotValidThirdArgument(startYearString, "20", null);
+        assertionsNotValidThirdArgument(startYearString, "21", null);
+        assertionsNotValidThirdArgument(startYearString, "22", null);
+        assertionsNotValidThirdArgument(startYearString, "23", null);
+        assertionsNotValidThirdArgument(startYearString, "24", null);
+        assertionsNotValidThirdArgument(startYearString, "25", null);
+        assertionsNotValidThirdArgument(startYearString, "26", null);
+        assertionsNotValidThirdArgument(startYearString, "27", null);
+        assertionsNotValidThirdArgument(startYearString, "28", null);
+        assertionsNotValidThirdArgument(startYearString, "29", null);
+        assertionsNotValidThirdArgument(startYearString, "30", null);
+        assertionsNotValidThirdArgument(startYearString, "31", null);
+    }
+
+    //----The method combines for third arguments
+    void combinationsNotValidForThirdArgument(int startYear) {
 
     }
 

@@ -4,139 +4,15 @@
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e3ed66d-7978-4082-8c8c-20511c9a0e20" name="Default Changelist" comment="All works, with Enum Tests">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internship.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/Calendar.DaysOfWeek.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/Calendar.MonthsInYear.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/Calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/DaysOfWeek.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/Fibonacci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/GCD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/House.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/MonthsInYear.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/Swap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/Task1Swap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/Task2House.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/Task3GCD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/Task4Fibonacci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/Task5Calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-17.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/external/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jquery-migrate-3.0.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.structure.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jszip/dist/jszip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/jquery/jszip/dist/jszip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/member-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/package-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/type-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Calendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DaysOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MonthsInYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Swap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task1Swap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task2House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task3GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task4Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task5Calendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DaysOfWeekTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MonthsInYearTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Task1SwapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Task2HouseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Task3GCDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Task4FibonacciTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Task5CalendarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Calendar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DaysOfWeek.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Fibonacci.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/GCD.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/House.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/MonthsInYear.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Swap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Task1Swap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Task2House.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Task3GCD.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Task4Fibonacci.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Task5Calendar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/DaysOfWeekTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/MonthsInYearTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Task1SwapTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Task2HouseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Task3GCDTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Task4FibonacciTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Task5CalendarTest.class" afterDir="false" />
+    <list default="true" id="6e3ed66d-7978-4082-8c8c-20511c9a0e20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaysOfWeekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DaysOfWeekTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MonthsInYearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MonthsInYearTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task5CalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Task5CalendarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MonthsInYear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MonthsInYear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaysOfWeekTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DaysOfWeekTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MonthsInYearTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MonthsInYearTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Task5CalendarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Task5CalendarTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -159,43 +35,115 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DaysOfWeek.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Task4Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GCD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MonthsInYear.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
-              <caret line="96" column="67" selection-start-line="96" selection-start-column="67" selection-end-line="96" selection-end-column="67" />
+            <state relative-caret-position="901">
+              <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
               <folding>
-                <element signature="e#2166#2167#0" expanded="true" />
-                <element signature="e#2222#2223#0" expanded="true" />
-                <element signature="e#3355#3356#0" expanded="true" />
-                <element signature="e#3394#3395#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/time/Month.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DaysOfWeek.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="113" column="85" selection-start-line="113" selection-start-column="81" selection-end-line="113" selection-end-column="85" />
+            <state relative-caret-position="901">
+              <caret line="53" column="77" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaysOfWeekTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MonthsInYearTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Task1SwapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4403">
+              <caret line="267" column="38" selection-start-line="267" selection-start-column="38" selection-end-line="267" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#assertionValidSwap#0;class#Task1SwapTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Task2HouseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Task3GCDTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#assertionValidNod#0;class#Task3GCDTest#0" />
+                <element signature="method#assertionValidNodMain#0;class#Task3GCDTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Task4FibonacciTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3553">
+              <caret line="218" column="29" selection-start-line="218" selection-start-column="29" selection-end-line="218" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Task5CalendarTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="588" column="28" lean-forward="true" selection-start-line="588" selection-start-column="28" selection-end-line="588" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,9 +160,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ILLEGAL_ARGUMENT);</find>
-      <find>printThreeParam + &quot;</find>
-      <find>checkData</find>
       <find>&quot;Expected: from 1 to 7\r\nGot:</find>
       <find>errorForThirdArgumentMoreMAX</find>
       <find>daysInWeek</find>
@@ -242,12 +187,11 @@
       <find>&quot;0&quot;</find>
       <find>, errorForThirdArgumentLessMIN);</find>
       <find>errorForSecondArgumentLess</find>
+      <find>assertionsNotValidNULL</find>
+      <find>combination</find>
+      <find>startYear</find>
     </findStrings>
     <replaceStrings>
-      <replace>ILLEGAL_ARGUMENT</replace>
-      <replace>Expected: from 1 to 31\r\nGot: 31</replace>
-      <replace>Expected: from 1 to 7\r\nGot: 54_</replace>
-      <replace>THURSDAY</replace>
       <replace>nextInt()</replace>
       <replace>,</replace>
       <replace>int</replace>
@@ -274,6 +218,10 @@
       <replace>null</replace>
       <replace>);</replace>
       <replace>errorForSecondArgument</replace>
+      <replace>assertionsNotValidFirstArgument</replace>
+      <replace>assertionsNotValidThirdArgument</replace>
+      <replace>combinationsNotValidForThirdArgument</replace>
+      <replace>startYearString</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -322,17 +270,17 @@
         <option value="$PROJECT_DIR$/src/main/java/Task2House.java" />
         <option value="$PROJECT_DIR$/src/main/java/Task3GCD.java" />
         <option value="$PROJECT_DIR$/src/main/java/Task5Calendar.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DaysOfWeekTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Task4FibonacciTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MonthsInYearTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Task1SwapTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Task2HouseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Task3GCDTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/GCD.java" />
         <option value="$PROJECT_DIR$/src/main/java/Swap.java" />
         <option value="$PROJECT_DIR$/src/main/java/Task4Fibonacci.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Task5CalendarTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MonthsInYear.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaysOfWeekTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MonthsInYearTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Task5CalendarTest.java" />
       </list>
     </option>
   </component>
@@ -365,10 +313,10 @@
     <option name="jreName" value="12" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="186" />
-    <option name="y" value="130" />
-    <option name="width" value="816" />
-    <option name="height" value="788" />
+    <option name="x" value="-59" />
+    <option name="y" value="223" />
+    <option name="width" value="1289" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -376,6 +324,59 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internship" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internship" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internship" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internship" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internship" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internship" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="internship" type="58d84e3e:PackageViewProjectNode" />
+              <item name="internship" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -496,70 +497,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internship" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internship" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internship" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internship" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internship" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="internship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internship" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="internship" type="58d84e3e:PackageViewProjectNode" />
-              <item name="internship" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -633,10 +581,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3GCDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task5CalendarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="internship" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task3GCDTest" />
+      <option name="MAIN_CLASS_NAME" value="Task5CalendarTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -645,10 +593,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in internship" />
-        <item itemvalue="JUnit.Task1SwapTest.testSwapValid" />
-        <item itemvalue="JUnit.Task3GCDTest" />
         <item itemvalue="JUnit.MonthsInYearTest" />
+        <item itemvalue="JUnit.Task5CalendarTest" />
         <item itemvalue="JUnit.DaysOfWeekTest" />
+        <item itemvalue="JUnit.Task1SwapTest.testSwapValid" />
       </list>
     </recent_temporary>
   </component>
@@ -660,24 +608,17 @@
       <option name="presentableId" value="Default" />
       <updated>1564048768505</updated>
     </task>
+    <task id="LOCAL-00001" summary="All works, with Enum Tests, with style">
+      <created>1566231626086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566231626086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DaysOfWeekTest - 2019.08.19 at 15h 21m 15s.xml">
-      <configuration name="DaysOfWeekTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DaysOfWeekTest - 2019.08.19 at 15h 22m 42s.xml">
-      <configuration name="DaysOfWeekTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DaysOfWeekTest - 2019.08.19 at 15h 27m 38s.xml">
-      <configuration name="DaysOfWeekTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DaysOfWeekTest - 2019.08.19 at 15h 28m 06s.xml">
-      <configuration name="DaysOfWeekTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DaysOfWeekTest - 2019.08.19 at 15h 31m 23s.xml">
-      <configuration name="DaysOfWeekTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MonthsInYearTest - 2019.08.19 at 15h 31m 37s.xml">
       <configuration name="MonthsInYearTest" configurationId="JUnit" />
     </history-entry>
@@ -693,6 +634,21 @@
     <history-entry file="All_in_internship - 2019.08.19 at 18h 40m 32s.xml">
       <configuration name="All in internship" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Task5CalendarTest - 2019.08.19 at 19h 23m 56s.xml">
+      <configuration name="Task5CalendarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaysOfWeekTest - 2019.08.19 at 19h 24m 56s.xml">
+      <configuration name="DaysOfWeekTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Task5CalendarTest - 2019.08.19 at 19h 32m 03s.xml">
+      <configuration name="Task5CalendarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MonthsInYearTest - 2019.08.19 at 19h 33m 28s.xml">
+      <configuration name="MonthsInYearTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_internship - 2019.08.19 at 19h 42m 59s.xml">
+      <configuration name="All in internship" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -705,22 +661,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48713827" visible="true" weight="0.25965178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48713827" visible="true" weight="0.28009084" />
       <window_info id="Structure" order="1" sideWeight="0.5128617" side_tool="true" weight="0.29068887" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50240386" side_tool="true" weight="0.26701966" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3279743" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988645" weight="0.2829582" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988645" visible="true" weight="0.4051447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3971061" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329582" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4981075" visible="true" weight="0.329582" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011355" side_tool="true" weight="0.2829582" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5018925" side_tool="true" visible="true" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.31993568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -730,6 +685,7 @@
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.329296" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
       <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="7" side_tool="true" weight="0.3290469" />
+      <window_info anchor="right" id="Github Tools" order="8" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48713827" weight="0.2641938" />
@@ -759,7 +715,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All works, with Enum Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="All works, with Enum Tests" />
+    <MESSAGE value="All works, with Enum Tests, with style" />
+    <option name="LAST_COMMIT_MESSAGE" value="All works, with Enum Tests, with style" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -991,118 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Task4FibonacciTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="214" column="85" selection-start-line="214" selection-start-column="85" selection-end-line="214" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Task1SwapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="267" column="38" lean-forward="true" selection-start-line="267" selection-start-column="38" selection-end-line="267" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#assertionValidSwap#0;class#Task1SwapTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Task3GCDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#assertionValidNod#0;class#Task3GCDTest#0" />
-            <element signature="method#assertionValidNodMain#0;class#Task3GCDTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Task2HouseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Swap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Task1Swap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Task2House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Task3GCD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Task4Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MonthsInYearTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaysOfWeekTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="82" column="37" lean-forward="true" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Task5Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/House.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-525">
@@ -1113,40 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Task5CalendarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="421" column="49" lean-forward="true" selection-start-line="421" selection-start-column="49" selection-end-line="421" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GCD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/time/Month.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1154,22 +965,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DaysOfWeek.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GCD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        <state relative-caret-position="194">
+          <caret line="86" column="41" lean-forward="true" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Task5Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MonthsInYear.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="96" column="67" selection-start-line="96" selection-start-column="67" selection-end-line="96" selection-end-column="67" />
+        <state relative-caret-position="459">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Swap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding>
-            <element signature="e#2166#2167#0" expanded="true" />
-            <element signature="e#2222#2223#0" expanded="true" />
-            <element signature="e#3355#3356#0" expanded="true" />
-            <element signature="e#3394#3395#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Task1Swap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Task2House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Task3GCD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Task4Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DaysOfWeek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="77" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaysOfWeekTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MonthsInYearTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task1SwapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4403">
+          <caret line="267" column="38" selection-start-line="267" selection-start-column="38" selection-end-line="267" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#assertionValidSwap#0;class#Task1SwapTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task2HouseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task3GCDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#assertionValidNod#0;class#Task3GCDTest#0" />
+            <element signature="method#assertionValidNodMain#0;class#Task3GCDTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task4FibonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3553">
+          <caret line="218" column="29" selection-start-line="218" selection-start-column="29" selection-end-line="218" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task5CalendarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="588" column="28" lean-forward="true" selection-start-line="588" selection-start-column="28" selection-end-line="588" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

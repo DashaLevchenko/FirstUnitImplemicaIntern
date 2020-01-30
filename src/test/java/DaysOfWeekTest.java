@@ -1,10 +1,7 @@
 import org.junit.jupiter.api.Test;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 class DaysOfWeekTest {
 
@@ -27,8 +24,6 @@ class DaysOfWeekTest {
         assertionsNotValidOf("0", errorInputFirstArgument + "0");
         assertionsNotValidOf("8", errorInputFirstArgument + "8");
 
-
-
     }
 
     //------The check method for null
@@ -39,42 +34,5 @@ class DaysOfWeekTest {
         } catch (IllegalArgumentException e) {
             assertEquals(errorMethod, e.getMessage());
         }
-    }
-
-    //------The check method for invalid first argument for method searchDay()
-    void assertionsNotValidNULL(DaysOfWeek startYear, String searchDayStr, String searchMonthStr, String errorMethod) {
-        int searchDay = Integer.valueOf(searchDayStr);
-        MonthsInYear searchMonth = MonthsInYear.of(Integer.valueOf(searchMonthStr));
-
-        try {
-            Calendar.searchDay(startYear, searchDay, searchMonth);
-            fail();
-        } catch (IllegalArgumentException e) {
-            assertEquals(errorMethod, e.getMessage());
-        }
-        String nameOfFirstParameter = "The day of new year: ";
-        assertionsNotValidMain("null", searchDayStr, searchMonthStr, nameOfFirstParameter + errorMethod);
-    }
-
-    //------The check method for invalid first argument for method searchDay()
-    void assertionsNotValidMain(String startYear, String searchDay, String searchMonth, String error) {
-        String input = startYear + System.lineSeparator() + searchDay + System.lineSeparator() + searchMonth;
-        String result = main(input);
-        String expected = "Welcome!\r\nEnter values:\r\n" + error;
-
-        assertEquals(expected, result);
-
-    }
-
-    //----The method imitates console enter from user, and returns string output in console
-    String main(String input) {
-        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(input.getBytes());
-        System.setIn(byteArrayInputStream);
-
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(outputStream));
-        Task5Calendar.main(new String[0]);
-
-        return outputStream.toString().trim();
     }
 }
